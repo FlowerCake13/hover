@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+
+#container{
+	height: calc(100vh);
+	width: calc(100vw);
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.thingy{
+	height: 150px;
+	width: 150px;
+}
+
+#one{
+	background-color: blue;
+}
+
+#two{
+	background-color: pink;
+}
+
+#three{
+	background-color: red;
+}
+
+#text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 15px;
+}
